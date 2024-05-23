@@ -1,39 +1,37 @@
-.loyalty {
+.loyalty form {
     background-color: white;
-    padding: 50px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 0px solid;
     border-radius: 25px;
-    max-width: 80%;
-    margin: 20px auto;
-}
-
-.loyalty h2 {
-    margin-top: 0;
-    color: #4eb060;
-    text-align: center;
-}
-#loyalty-card {
-    width: 200px;
+    padding: 50px;
+    width: 80%;
+    height: 600px;
     height: auto;
+    margin: 0px auto;
+    margin-bottom: 100px;
 }
-.form-group {
-    margin-bottom: 15px;
+.loyalty h2 {
+    text-align: center;
+    color: #3a8b4f;
+    padding: 100px;
+    font-size: xx-large;
 }
 
-.form-group label {
+.loyalty label {
+    font-size: 20px;
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     color: #333;
 }
 
-.form-group input,
-.form-group select {
+.loyalty input,
+.loyalty select {
     width: calc(100% - 20px);
     padding: 10px;
     border: 2px solid #ccc;
-    border-radius: 4px;
+    border-radius: 25px;
     font-size: 16px;
-    margin-left: 10px;
+    margin-bottom: 70px;
+    
 }
 
 button[type="submit"] {
@@ -45,6 +43,7 @@ button[type="submit"] {
     cursor: pointer;
     font-size: 16px;
     width: 100%; 
+    
 }
 
 button[type="submit"]:hover {
@@ -80,13 +79,17 @@ button[type="submit"]:hover {
     .loyalty, .benefits {
         padding: 20px;
     }
+    .loyalty form{
+        width: 80%;
+        padding: 20px;
+    }
     .form-group input,
     .form-group select {
         width: 100%;
         margin-left: 0;
     }
     #loyalty-card {
-        width: 30px;
+        width: 150px;
         margin-right: 5px;
     }
 }

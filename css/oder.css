@@ -1,41 +1,37 @@
-.order {
+.order form {
     background-color: white;
-    padding: 100px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 0px solid;
     border-radius: 25px;
-    max-width: 600px;
-    margin: 20px auto;
+    padding: 50px;
+    width: 80%;
+    height: 600px;
+    height: auto;
+    margin: 0px auto;
+    margin-bottom: 100px;
 }
-
 .order h2 {
-    margin-top: 0;
-    color: #4eb060;
+    text-align: center;
+    color: #3a8b4f;
+    padding: 100px;
+    font-size: xx-large;
 }
 
-.form-group {
-    margin-bottom: 15px;
-}
-
-.form-group label {
+.order label {
+    font-size: 20px;
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     color: #333;
 }
 
-.form-group input,
-.form-group select,
-.form-group textarea {
+.order input,
+.order select {
     width: calc(100% - 20px);
     padding: 10px;
     border: 2px solid #ccc;
-    border-radius: 4px;
+    border-radius: 25px;
     font-size: 16px;
-    margin-left: 10px;
-}
-
-.form-group textarea {
-    resize: vertical;
-    height: 100px;
+    margin-bottom: 70px;
+    
 }
 
 button[type="submit"] {
@@ -46,19 +42,26 @@ button[type="submit"] {
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+    width: 100%; 
+    
 }
 
 button[type="submit"]:hover {
     background-color: #3a8b4f;
 }
+
 @media (max-width: 600px) {
     .order {
         padding: 20px;
     }
+    .order form{
+        width: 80%;
+        padding: 20px;
+    }
     .form-group input,
-    .form-group select,
-    .form-group textarea {
+    .form-group select {
         width: 100%;
         margin-left: 0;
     }
+
 }
