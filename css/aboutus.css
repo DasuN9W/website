@@ -44,6 +44,7 @@ th, td {
     padding: 15px;
     text-align: left;
 }
+
 @media (max-width: 768px) {
     .branch-info {
         width: 80%;
@@ -86,7 +87,7 @@ th, td {
 @media (max-width: 1600px) {
     .map-container {
         position: relative;
-        padding-bottom: 56.25%; /* 16:9 ratio */
+        padding-bottom: 56.25%;
         height: 0;
         overflow: hidden;
         max-width: 100%;
