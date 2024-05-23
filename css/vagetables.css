@@ -1,0 +1,148 @@
+.vegetables {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    width: 80%;
+    margin: auto;
+    border-radius: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+
+.vegetables h2{
+    text-align: center;
+    font-size: xx-large;
+    padding-bottom: 50px;
+
+}
+
+.venues {
+    margin-top: 40px;
+}
+
+.venues h3 {
+    text-align: center;
+    font-size: 24px;
+    color: #3fb410;
+    margin-bottom: 10px;
+}
+
+.venues p {
+    background-color: white;
+    border: 0px solid;
+    padding: 50px;
+    border-radius: 25px;
+    font-size: 20px;
+    color: #202020;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.vegetableP {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    width: 80%;
+    margin: auto;
+    border-radius: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 60px;
+    grid-row-gap: 50px;
+}
+.product-box { 
+    border: 1px solid #ddd;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 100%; 
+    min-height: 333px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.product-box img {
+    margin: auto;
+    width: 90%; 
+    height: 130px; 
+    object-fit: contain;
+    object-position: center;
+}
+
+.product-box strong {
+    color: #202020;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.product-box .cart-btn {
+    width: 100%; 
+    height: 40px;
+    border: 2px solid;
+    background-color: white;
+    color: #3fb410;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.product-box .cart-btn:hover {
+    background-color: #3fb410;
+    color: #ffffff;
+    transition: all ease 0.3s;
+}
+
+.product-box .price {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+.price span {
+    margin-bottom: -5px;
+    text-decoration: line-through;
+}
+
+.price p {
+    margin: 0;
+    font-size: x-large;
+    color: #3fb410;
+}
+
+@media only screen and (max-width: 768px) {
+    .vegetables, .vegetableP {
+        width: 90%;
+    }
+
+    .product-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .product-box {
+        padding: 30px;
+    }
+
+    .venues p {
+        padding: 30px;
+    }
+}

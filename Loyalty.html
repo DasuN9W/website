@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loyalty Program - Grocies Supermarket</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/loyalty.css">
+</head>
+<body>
+    <header>
+        <img src="./img/logo.png" alt="Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./aboutus.html">About Us</a></li>
+                <li><a href="./dairyP.html">Dairy Products</a></li>
+                <li><a href="./Vegetables.html">Vegetables</a></li>
+                <li><a href="./Cosmetics.html">Cosmetics</a></li>
+                <li><a href="./oder.html">Order</a></li>
+                <li><a href="./Loyalty.html">Loyalty Program</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="benefits">
+            <h2>Loyalty Program Benefits</h2>
+            <p>Join our loyalty program and enjoy exclusive benefits:</p>
+            <ul>
+                <img id="loyalty-card" src="./img/bronze loyality card.png" alt="bronze card">
+                <li><strong>Bronze:</strong> 5% off on all purchases</li> 
+                <img id="loyalty-card" src="./img/silver loyality card.png" alt="silver card">   
+                <li><strong>Silver:</strong> 10% off on all purchases and free delivery</li>
+                <img id="loyalty-card"src="./img/gold loyality card.png" alt="gold card">
+                <li><strong>Gold:</strong> 15% off on all purchases, free delivery, and priority customer service</li>
+            </ul>
+        </section>
+        <section class="loyalty">
+            <h2>Loyalty Program Registration</h2>
+            <form action="#" method="POST">
+                <div>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div>
+                    <label for="loyalty-scheme">Select Loyalty Scheme:</label>
+                    <select id="loyalty-scheme" name="loyalty-scheme">
+                        <option value="bronze">Bronze</option>
+                        <option value="silver">Silver</option>
+                        <option value="gold">Gold</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="submit">Register</button>
+                </div>
+            </form>
+        </section>    
+    </main>
+    <footer>
+        <p>&copy; 2024 Grocies Supermarket. All rights reserved.</p>
+        <!-- Developer Note: Ensure the footer is consistent across all pages. -->
+    </footer>
+</body>
+</html>
